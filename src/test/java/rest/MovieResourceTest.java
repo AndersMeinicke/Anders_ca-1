@@ -47,7 +47,7 @@ public class MovieResourceTest {
         ResourceConfig rc = ResourceConfig.forApplication(new ApplicationConfig());
         return GrizzlyHttpServerFactory.createHttpServer(BASE_URI, rc);
     }
-
+"No"
     @BeforeAll
     public static void setUpClass() {
         //This method must be called before you request the EntityManagerFactory
